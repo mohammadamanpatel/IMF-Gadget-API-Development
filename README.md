@@ -117,8 +117,8 @@ For a detailed description of the API, including request and response formats, r
 ### 🏷️ Gadget Management Routes (`/api/gadget`)
 | Method | Endpoint | Protected? | Role | Description |
 |--------|---------|------------|------|-------------|
-| `GET`  | `/getAll` | ❌ No | - | Retrieve all gadgets |
-| `GET`  | `/:status` | ❌ No | - | Get gadgets by status |
+| `GET`  | `/getAll` | - | Both can access | Retrieve all gadgets |
+| `GET`  | `/:status` | - | Both can access | Get gadgets by status |
 | `POST` | `/` | ✅ Yes | Quartermaster | Add a new gadget |
 | `PATCH` | `/:id` | ✅ Yes | Quartermaster | Update gadget details |
 | `PATCH` | `/:id/decommission` | ✅ Yes | Quartermaster | Decommission a gadget |
