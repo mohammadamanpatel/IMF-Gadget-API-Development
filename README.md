@@ -3,7 +3,6 @@
 ## 📌 Project Overview
 This project, Phoenix: IMF Gadget API, is a secure API designed to manage the Impossible Missions Force (IMF) gadget inventory. Built with Node.js, Express, and PostgreSQL, this API allows Quartermasters to handle gadget lifecycle operations, including adding, updating, decommissioning, and triggering a self-destruct sequence. The API ensures security through JWT-based authentication and role-based authorization while also supporting caching via Redis cache for optimized performance. Additionally, it features a mission success probability generator and status-based gadget filtering. 🚀
 
----
 
 ## 🛠️ Technologies Used
 | Technology    | Purpose |
@@ -19,7 +18,6 @@ This project, Phoenix: IMF Gadget API, is a secure API designed to manage the Im
 | **Nodemon** | Auto-restart server for development |
 | **Cookie-Parser** | Middleware for handling cookies |
 
----
 
 ## 📂 Folder Structure
 
@@ -55,7 +53,6 @@ This project, Phoenix: IMF Gadget API, is a secure API designed to manage the Im
 | `server.js`               | Main server file |
 | `README.md`               | Project documentation |
 
----
 
 ## 🚀 Installation & Setup
 
@@ -107,7 +104,6 @@ For a detailed description of the API, including request and response formats, r
 [📄 API Documentation (Auth endpoints)](https://www.postman.com/joint-operations-cosmologist-64352344/workspace/imf-gadget-endpoints/collection/30730048-ca372182-d5b5-4ee2-8cfb-71aff27641d4?action=share&creator=30730048)
 
 [📄 API Documentation (Gadget endpoints)](https://www.postman.com/joint-operations-cosmologist-64352344/workspace/imf-gadget-endpoints/collection/30730048-6c008a2f-b4b2-4863-ac81-a19cbc9aa4d5?action=share&creator=30730048)
----
 
 ## 📌 API Endpoints
 
@@ -127,5 +123,3 @@ For a detailed description of the API, including request and response formats, r
 | `PATCH` | `/:id` | ✅ Yes | Quartermaster | Update gadget details |
 | `PATCH` | `/:id/decommission` | ✅ Yes | Quartermaster | Decommission a gadget |
 | `POST` | `/:id/triggerSelfDestruct` | ✅ Yes | Quartermaster | Trigger self-destruct |
-
----
