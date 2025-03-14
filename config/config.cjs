@@ -1,5 +1,4 @@
 require("dotenv").config();
-console.log("process.env in config.cjs",process.env);
 module.exports = {
   development: {
     username: process.env.PGUSER,
