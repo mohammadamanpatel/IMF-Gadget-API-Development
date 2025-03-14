@@ -1,8 +1,7 @@
 # Upraised Task - Gadget Management API
 
 ## 📌 Project Overview
-This project, Phoenix: IMF Gadget API, is a secure API designed to manage the Impossible Missions Force (IMF) gadget inventory. Built with Node.js, Express, and PostgreSQL, this API allows Quartermasters to handle gadget lifecycle operations, including adding, updating, decommissioning, and triggering a self-destruct sequence. The API ensures security through JWT-based authentication and role-based authorization while also supporting caching via Redis cache for optimized performance. Additionally, it features a mission success probability generator and status-based gadget filtering. 🚀
-
+This project, Phoenix: IMF Gadget API, is a secure API for managing the Impossible Missions Force (IMF) gadget catalog. Developed using Node.js, Express, and PostgreSQL, the API enables Quartermasters to perform gadget lifecycle operations such as adding, updating, decommissioning, and initiating a self-destruct sequence. The API provides security through JWT-based authentication and role-based authorization and also facilitates caching through Redis cache for optimal performance. It also has a mission success probability generator and status-based gadget filtering.
 
 ## 🛠️ Technologies Used
 | Technology    | Purpose |
