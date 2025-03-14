@@ -26,7 +26,7 @@ const startServer = async () => {
 };
 startServer();
 app.get("/", (req, res) => {
-  res.send("Impossible Missions Force (IMF) gadget inventory. Built with Node.js, Express, PostgreSQL and Redis for caching");
+  res.send("IMF’s top-secret gadget vault—powered by Node.js, Express, PostgreSQL, and Redis for sneaky-fast ops! 🚀🔐 Register & log in, or no gadgets for you! 😏");
 });
 app.use("/api/auth", authRoutes);
 app.use("/api/gadget", gadgetRoutes);
