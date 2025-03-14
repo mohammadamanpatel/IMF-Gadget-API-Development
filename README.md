@@ -70,7 +70,7 @@ cd IMF-Gadget-API-Development
 npm install
 ```
 
-### 3️⃣ Configure Environment Variables
+### 3️⃣ Configure Environment Variables (note:- Neon Tech free-tier is used postgresql database management and upstash redis free-tier is used for redis caching)
 Create a `.env` file in the root directory and add the following variables:
 ```env
 PORT = <port>
@@ -102,6 +102,11 @@ npm start
 npm run dev
 ```
 
+## **📘 API Documentation**
+For a detailed description of the API, including request and response formats, refer to the full **API Documentation** here:  
+[📄 API Documentation (Auth endpoints)](https://www.postman.com/joint-operations-cosmologist-64352344/workspace/imf-gadget-endpoints/collection/30730048-ca372182-d5b5-4ee2-8cfb-71aff27641d4?action=share&creator=30730048)
+
+[📄 API Documentation (Gadget endpoints)](https://www.postman.com/joint-operations-cosmologist-64352344/workspace/imf-gadget-endpoints/collection/30730048-6c008a2f-b4b2-4863-ac81-a19cbc9aa4d5?action=share&creator=30730048)
 ---
 
 ## 📌 API Endpoints
