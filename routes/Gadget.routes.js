@@ -12,9 +12,9 @@ import authorize from "../middlewares/AuthZ.js";
 
 const router = express.Router();
 
-router.get("/getAll", getGadgets);
+router.get("/getAll", verifyToken, getGadgets);
 
-router.get("/:status", getGadgetByStatus);
+router.get("/:status", verifyToken, getGadgetByStatus);
 
 router.post("/", verifyToken, authorize(["Quartermaster"]), addGadget);
 
