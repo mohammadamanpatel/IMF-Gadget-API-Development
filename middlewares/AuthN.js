@@ -1,9 +1,7 @@
 import jwt from "jsonwebtoken";
 
 export const verifyToken = (req, res, next) => {
-  console.log("req.cookies", req);
   const token = req.cookies.token;
-  console.log("token", token);
   if (!token)
     return res.json({
       message: "token not found",
